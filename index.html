@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+</head>
+<link rel="stylesheet" href="./mainstyle.css">
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="page.js">
+    
+</script>
+<body>
+    <!--
+        1.0.0  
+            完成基本游戏逻辑
+        1.1.0
+            增加背景图片
+            增加计分器
+            优化移动端体验
+            增加BGM
+    -->
+    <div class="container">
+        <div class="pad">
+            <div class="bkg" id="bkg">
+                
+            </div>
+            
+        </div>
+        <div class="ctrls">
+            <div class="gametitle">
+                ТЕТРИС
+            </div>
+            <div class="version">
+                1.1.0
+            </div>
+            <div class="score">
+                <div class="score_name">СКOРЕ</div>
+                <div class="score_number" id="score">0</div>
+            </div>
+            <div class="score">
+                <div class="score_name">ЕРИМИНATEД</div>
+                <div class="score_number" id="eliminated">0</div>
+            </div>
+            <div class="userinfo">
+                <div class="settings">
+                    <div class="bgmctrl">
+                        <div class="not_selected" id="bgmSwitch"></div>BGM
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="chats">
+                    <div class="chatstitle">来自克里姆林宫的消息：</div>
+                    <div class="chatbar" id="tips">亲爱的伊凡诺维奇将军，我们敬爱的同志，您即将带领伟大的联盟走向胜利。</div>
+                </div>
+            </div>
+            <div class="ctrlpad">
+                <div class="btn_up" id="btn_up"></div>
+                <div class="btn_left" id="btn_left"></div>
+                <div class="btn_down" id="btn_down"></div>
+                <div class="btn_right" id="btn_right"></div>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>
